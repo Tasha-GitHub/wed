@@ -5,6 +5,16 @@
   }
 }
 
+nav.navbar .container-fluid div#main-nav {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+nav.navbar .container-fluid div#main-nav ul li {
+  margin: 0px 50px 0px 50px;
+}
+
 section {
   text-align: center;
 }
