@@ -69,15 +69,28 @@ section {
           width: 50px;
         }
       }
-      .map {
+      .map-container {
         width: 100%;
-        height: 0px;
+        display: flex;
+        justify-content: center;
+        max-height: 0px;
+        transition: max-height 0.5s ease-out;
         &.visible {
           margin-bottom: 20px;
+          height: auto;
+          max-height: 5000px;
+          transition: max-height 0.75s ease-in;
         }
-        iframe {
+        .map {
+          display: block;
           width: 80%;
+          opacity: 0;
+          transition: opacity 0.5s ease-out;
           height: 100%;
+          &.visible {
+            opacity: 1;
+            transition: opacity 0.75s ease-in;
+          }
         }
       }
     }
