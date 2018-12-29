@@ -1,11 +1,14 @@
 @import "theme.scss";
-@import "itinerary.scss";
-@import "hotel-rsvp.scss";
-@import "banner.scss";
 @import "navbar.scss";
+@import "banner.scss";
+@import "hotel-rsvp.scss";
+@import "itinerary.scss";
 
 body {
   font-family: $secondary-font;
+  .container-fluid {
+    padding: 0px;
+  }
   section {
     text-align: center;
     h1 {

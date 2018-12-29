@@ -1,10 +1,21 @@
 .navbar {
+  background-color: white;
   margin-bottom: 0px; }
+  @media only screen and (max-width: 768px) {
+    .navbar {
+      display: block; } }
+  .navbar .navbar-collapse {
+    text-align: center; }
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top; }
+    @media only screen and (max-width: 768px) {
+      .navbar .navbar-nav {
+        display: block; } }
+  .navbar ul li {
+    margin: 0px 50px 0px 50px; }
 
-nav.navbar .container-fluid div#main-nav {
-  display: flex !important;
-  align-items: center;
-  justify-content: center; }
-
-nav.navbar .container-fluid div#main-nav ul li {
-  margin: 0px 50px 0px 50px; }
+#logo {
+  height: 50px;
+  display: inline-block; }
