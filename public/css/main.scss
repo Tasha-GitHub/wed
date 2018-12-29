@@ -4,11 +4,11 @@
 @import "hotel-rsvp.scss";
 @import "itinerary.scss";
 
+html {
+  font-size: 20px;
+}
 body {
   font-family: $secondary-font;
-  .container-fluid {
-    padding: 0px;
-  }
   section {
     text-align: center;
     h1 {
