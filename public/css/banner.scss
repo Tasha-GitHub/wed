@@ -1,6 +1,37 @@
 #banner {
-  .row img {
-    width: 100%;
-    max-height: 100vh;
+  .banner-img {
+    background-image: url("../images/banner.png");
+    background-size: cover;
+    height: 500px;
+  }
+
+  #title-box {
+    color: azure;
+    text-align: center;
+    width: 300px;
+    position: relative;
+    top: 22%;
+    left: 3%;
+
+    #main-title {
+      color: azure;
+      text-align: center;
+      border: azure;
+      border-width: 2px;
+      border-style: solid none solid none;
+      width: 300px;
+      position: relative;
+      top: 22%;
+      left: 3%;
+      padding: 15px 0px;
+
+      p:first-child {
+        color: red;
+      }
+
+      p:last-child {
+        color: green;
+      }
+    }
   }
 }
