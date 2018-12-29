@@ -1,6 +1,11 @@
-$primary-font: Verdana, Geneva, Tahoma, sans-serif;
+@font-face {
+  font-family: "Caviar";
+  src: url("../fonts/CaviarDreams.ttf");
+}
+
+$primary-font: "Caviar", Verdana, Geneva, Tahoma, sans-serif;
 $primary-letter-spacing: 2.6px;
-$secondary-font: Georgia;
+$secondary-font: "Lora", serif;
 $primary-color: #74b2db;
 $accent-color: #042242;
 $secondary-color: #363636;
