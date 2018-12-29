@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Caviar";
+  src: url("../fonts/CaviarDreams.ttf"); }
+
 .navbar {
   background-color: white;
   margin-bottom: 0px; }
@@ -16,7 +20,7 @@
   .navbar ul li {
     margin: 0px 50px 0px 50px; }
     .navbar ul li a {
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-family: "Caviar", Verdana, Geneva, Tahoma, sans-serif;
       letter-spacing: 2.6px;
       color: #363636 !important; }
       .navbar ul li a:hover {

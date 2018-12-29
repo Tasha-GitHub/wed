@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Caviar";
+  src: url("../fonts/CaviarDreams.ttf"); }
+
 #itinerary .timeline {
   display: block;
   position: relative;

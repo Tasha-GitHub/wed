@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Caviar";
+  src: url("../fonts/CaviarDreams.ttf"); }
+
 #hotel-rsvp .hotels {
   display: flex;
   justify-content: center; }
