@@ -1,3 +1,7 @@
+body.container-fluid {
+  padding: 0px;
+}
+
 #banner {
   .row img {
     width: 100%;
@@ -5,14 +9,24 @@
   }
 }
 
-nav.navbar .container-fluid div#main-nav {
-  display: flex !important;
-  align-items: center;
-  justify-content: center;
+.navbar {
+  background-color: white;
+  .navbar-collapse {
+    text-align: center;
+  }
+  .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+  ul li {
+    margin: 0px 50px 0px 50px;
+  }
 }
 
-nav.navbar .container-fluid div#main-nav ul li {
-  margin: 0px 50px 0px 50px;
+#logo {
+  height: 50px;
+  display: inline-block;
 }
 
 section {
@@ -94,5 +108,11 @@ section {
         }
       }
     }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar .navbar-nav {
+    display: block;
   }
 }
