@@ -1,0 +1,64 @@
+#itinerary .timeline {
+  display: block;
+  position: relative;
+  width: 100%; }
+  #itinerary .timeline .tile {
+    margin: 0 1rem 0 2rem; }
+  #itinerary .timeline .timeline-item:nth-child(odd) {
+    position: relative;
+    max-width: 50%;
+    text-align: right; }
+    #itinerary .timeline .timeline-item:nth-child(odd) .timeline-content {
+      padding: 2px 0.8rem 2px 0; }
+    #itinerary .timeline .timeline-item:nth-child(odd) .timeline-icon {
+      position: relative; }
+      #itinerary .timeline .timeline-item:nth-child(odd) .timeline-icon::after {
+        border: 0.1rem solid #34435e;
+        border-radius: 50%;
+        content: "";
+        display: block;
+        height: 0.4rem;
+        right: 0.4rem;
+        position: absolute;
+        top: 0.4rem;
+        width: 0.4rem; }
+      #itinerary .timeline .timeline-item:nth-child(odd) .timeline-icon::before {
+        display: none; }
+    #itinerary .timeline .timeline-item:nth-child(odd)::after {
+      background: #91a898;
+      content: "";
+      height: 80%;
+      right: 11px;
+      position: absolute;
+      top: 1.2rem;
+      width: 2px; }
+    #itinerary .timeline .timeline-item:nth-child(odd)::before {
+      display: none; }
+    #itinerary .timeline .timeline-item:nth-child(odd) .tile-action {
+      position: absolute;
+      float: left; }
+  #itinerary .timeline .timeline-item:nth-child(even) {
+    position: relative;
+    left: calc(50% - 1.2rem);
+    text-align: left;
+    max-width: 50%; }
+    #itinerary .timeline .timeline-item:nth-child(even) .timeline-icon {
+      position: relative; }
+      #itinerary .timeline .timeline-item:nth-child(even) .timeline-icon::before {
+        border: 0.1rem solid #34435e;
+        border-radius: 50%;
+        content: "";
+        display: block;
+        height: 0.4rem;
+        right: -0.8rem;
+        position: absolute;
+        top: 0.4rem;
+        width: 0.4rem; }
+    #itinerary .timeline .timeline-item:nth-child(even)::before {
+      background: #91a898;
+      content: "";
+      height: 90%;
+      left: 11px;
+      position: absolute;
+      top: 1.2rem;
+      width: 2px; }

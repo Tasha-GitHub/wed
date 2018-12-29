@@ -1,0 +1,69 @@
+@import "theme.scss";
+
+#hotel-rsvp {
+  .hotel {
+    &.row-end {
+      border-left: 2px solid black;
+    }
+    .hotel-image-container {
+      width: 100%;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      img {
+        display: block;
+        max-width: 300px;
+        max-height: 200px;
+        width: auto;
+        height: auto;
+      }
+    }
+    .hotel-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .info-row:first-child {
+        margin-top: 20px;
+      }
+      .info-row {
+        width: 100%; // TODO: lower this on mobile
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        .address {
+          text-decoration: underline;
+          cursor: pointer;
+        }
+        img {
+          margin-right: 20px;
+          height: 50px;
+          width: 50px;
+        }
+      }
+      .map-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        max-height: 0px;
+        transition: max-height 0.5s ease-out;
+        &.visible {
+          margin-bottom: 20px;
+          height: auto;
+          max-height: 5000px;
+          transition: max-height 0.75s ease-in;
+        }
+        .map {
+          display: block;
+          width: 80%;
+          opacity: 0;
+          transition: opacity 0.5s ease-out;
+          height: 100%;
+          &.visible {
+            opacity: 1;
+            transition: opacity 0.75s ease-in;
+          }
+        }
+      }
+    }
+  }
+}
