@@ -1,0 +1,36 @@
+@import "theme.scss";
+
+.navbar {
+  background-color: white;
+  margin-bottom: 0px;
+  @media only screen and (max-width: $sm-breakpoint) {
+    display: block;
+  }
+  .navbar-collapse {
+    text-align: center;
+  }
+  .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    @media only screen and (max-width: $sm-breakpoint) {
+      display: block;
+    }
+  }
+  ul li {
+    margin: 0px 50px 0px 50px;
+    a {
+      font-family: $primary-font;
+      letter-spacing: $primary-letter-spacing;
+      color: $secondary-color !important;
+      &:hover {
+        color: $primary-color !important;
+      }
+    }
+  }
+}
+
+#logo {
+  height: 50px;
+  display: inline-block;
+}

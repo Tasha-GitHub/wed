@@ -1,0 +1,97 @@
+@import "theme.scss";
+
+#itinerary {
+  .timeline {
+    display: block;
+    position: relative;
+    width: 100%;
+
+    .tile {
+      margin: 0 1rem 0 2rem;
+    }
+
+    .timeline-item {
+      &:nth-child(odd) {
+        position: relative;
+        max-width: 50%;
+        text-align: right;
+
+        .timeline-content {
+          padding: 2px 0.8rem 2px 0;
+        }
+
+        .timeline-icon {
+          position: relative;
+
+          &::after {
+            border: 0.1rem solid #34435e;
+            border-radius: 50%;
+            content: "";
+            display: block;
+            height: 0.4rem;
+            right: 0.4rem;
+            position: absolute;
+            top: 0.4rem;
+            width: 0.4rem;
+          }
+
+          &::before {
+            display: none;
+          }
+        }
+
+        &::after {
+          background: #91a898;
+          content: "";
+          height: 80%;
+          right: 11px;
+          position: absolute;
+          top: 1.2rem;
+          width: 2px;
+        }
+
+        &::before {
+          display: none;
+        }
+
+        .tile-action {
+          position: absolute;
+          float: left;
+        }
+      }
+
+      &:nth-child(even) {
+        position: relative;
+        left: calc(50% - 1.2rem);
+        text-align: left;
+        max-width: 50%;
+
+        .timeline-icon {
+          position: relative;
+
+          &::before {
+            border: 0.1rem solid #34435e;
+            border-radius: 50%;
+            content: "";
+            display: block;
+            height: 0.4rem;
+            right: -0.8rem;
+            position: absolute;
+            top: 0.4rem;
+            width: 0.4rem;
+          }
+        }
+
+        &::before {
+          background: #91a898;
+          content: "";
+          height: 90%;
+          left: 11px;
+          position: absolute;
+          top: 1.2rem;
+          width: 2px;
+        }
+      }
+    }
+  }
+}

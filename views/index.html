@@ -32,16 +32,16 @@
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li>
-						<a href="#hotel-rsvp">Hotel</a>
+						<a href="#wedding-details">Details</a>
 					</li>
 					<li>
-						<a href="#itinerary">Itinerary</a>
+						<a href="#hotel-rsvp">Hotel</a>
 					</li>
 				</ul>
 				<img src="../images/logo.png" class="img-responsive hidden-xs" id="logo" />
 				<ul class="nav navbar-nav">
 					<li>
-						<a href="#wedding-details">Details</a>
+						<a href="#itinerary">Itinerary</a>
 					</li>
 					<li>
 						<a href="#registry">Registry</a>
@@ -70,8 +70,8 @@
 
 	<section class="container-fluid" id="hotel-rsvp">
 		<h1 class="section-title">Hotels</h1>
-		<div class="row">
-			<div class="col-xs-12 col-md-5 col-md-offset-1 hotel">
+		<div class="row hotels">
+			<div class="col-xs-10 col-md-5 hotel">
 				<h3>Aloft</h3>
 				<div class="hotel-image-container">
 					<img src="https://cache.marriott.com/marriottassets/marriott/RICAL/rical-exterior-5956-hor-feat.jpg?interpolation=progressive-bilinear&downsize=1180px:*">
@@ -91,11 +91,11 @@
 					</div>
 					<div class="info-row">
 						<img src="../images/window.svg">
-						<a href="https://www.marriott.com/hotels/travel/rical-aloft-richmond-west-short-pump/">Book Now</a>
+						<a href="https://www.marriott.com/hotels/travel/rical-aloft-richmond-west-short-pump/" target="_blank">Book Now</a>
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-md-5 hotel row-end">
+			<div class="col-xs-10 col-md-5 hotel row-end">
 				<h3>The Mill</h3>
 				<div class="hotel-image-container">
 					<img src="https://www.themillatfinecreek.com/wp-content/uploads/2017/05/BSP_6644.jpg">
@@ -115,15 +115,66 @@
 					</div>
 					<div class="info-row">
 						<img src="../images/window.svg">
-						<a href="https://www.themillatfinecreek.com/our-cottages/">Book Now</a>
+						<a href="https://www.themillatfinecreek.com/our-cottages/" target="_blank">Book Now</a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="container-fluid" id="wedding-details">
-		<h1 class="section-title">Wedding Details</h1>
+	<section class="container-fluid" id="itinerary">
+		<h1 class="section-title">Itinerary</h1>
+		<div class="row">
+			<div class="column col-xs=12">
+				<div class="timeline">
+					<div class="timeline-item" id="timeline-example-1">
+						<div class="timeline-left"><a class="timeline-icon" href="#timeline-example-1"></a></div>
+						<div class="timeline-content">
+							<div class="tile">
+								<div class="tile-content">
+									<p class="tile-subtitle">March 2016</p>
+									<p class="tile-title">Initial commit</p>
+									<p class="tile-title">Initial commit</p>
+									<p class="tile-title">Initial commit</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="timeline-item" id="timeline-example-2">
+						<div class="timeline-left"><a class="timeline-icon" href="#timeline-example-2"></a></div>
+						<div class="timeline-content">
+							<div class="tile">
+								<div class="tile-content">
+									<p class="tile-subtitle">February 2017</p>
+									<p class="tile-title">New Documents experience</p>
+									<p class="tile-title"><a href="components.html#bars">Bars</a>: represent the progress of a task</p>
+									<p class="tile-title"><a href="components.html#steps">Steps</a>: progress indicators of a sequence of task steps</p>
+									<p class="tile-title"><a href="components.html#tiles">Tiles</a>: repeatable or embeddable information blocks</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="timeline-item" id="timeline-example-3">
+						<div class="timeline-left"><a class="timeline-icon" href="#timeline-example-3"></a></div>
+						<div class="timeline-content">
+							<div class="tile">
+								<div class="tile-content">
+									<p class="tile-subtitle">March 2017</p>
+									<p class="tile-title"><a href="elements.html#icons">Icons</a>: single-element, responsive and pure CSS icons</p>
+									<p class="tile-title"><a href="components.html#popovers">Popovers</a>: small overlay content containers</p>
+									<p class="tile-title"><a href="experimentals.html#calendars">Calendars</a>: date or date range picker and events display</p>
+									<p class="tile-title"><a href="experimentals.html#carousels">Carousels</a>: slideshows for cycling images</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="container-fluid" id="registry">
+		<h1 class="section-title">Registry</h1>
 		<div class="row">
 			<div class="col-xs-offset-3 col-xs-6 coming-soon">
 				<h3>Coming Soon</h3>
@@ -131,14 +182,11 @@
 		</div>
 	</section>
 
-	<section class="container-fluid" id="wedding-details">
-		<h1 class="section-title">Wedding Details</h1>
-		<div class="row">
-			<div class="col-xs-offset-3 col-xs-6 coming-soon">
-				<h3>Coming Soon</h3>
-			</div>
+	<footer class="footer">
+		<div class="container">
+			<span>Made with love by Rob and Tasha</span>
 		</div>
-	</section>
+	</footer>
 
 	<script type="text/javascript" src="js/bundle.js"></script>
 	<!-- Latest compiled and minified JavaScript -->
