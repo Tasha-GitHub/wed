@@ -1,8 +1,17 @@
+body.container-fluid {
+  padding: 0px;
+}
+
 #banner {
   .row img {
     width: 100%;
     max-height: 100vh;
   }
+}
+
+#logo {
+  height: 50px;
+  display: inline-block;
 }
 
 nav.navbar .container-fluid div#main-nav {
@@ -13,6 +22,10 @@ nav.navbar .container-fluid div#main-nav {
 
 nav.navbar .container-fluid div#main-nav ul li {
   margin: 0px 50px 0px 50px;
+}
+
+nav.navbar {
+  background-color: white;
 }
 
 section {
