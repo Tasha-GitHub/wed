@@ -9,23 +9,24 @@ body.container-fluid {
   }
 }
 
+.navbar {
+  background-color: white;
+  .navbar-collapse {
+    text-align: center;
+  }
+  .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+  ul li {
+    margin: 0px 50px 0px 50px;
+  }
+}
+
 #logo {
   height: 50px;
   display: inline-block;
-}
-
-nav.navbar .container-fluid div#main-nav {
-  display: flex !important;
-  align-items: center;
-  justify-content: center;
-}
-
-nav.navbar .container-fluid div#main-nav ul li {
-  margin: 0px 50px 0px 50px;
-}
-
-nav.navbar {
-  background-color: white;
 }
 
 section {
@@ -107,5 +108,11 @@ section {
         }
       }
     }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar .navbar-nav {
+    display: block;
   }
 }
