@@ -19,6 +19,14 @@
   }
   ul li {
     margin: 0px 50px 0px 50px;
+    a {
+      font-family: $primary-font;
+      letter-spacing: $primary-letter-spacing;
+      color: $secondary-color !important;
+      &:hover {
+        color: $primary-color !important;
+      }
+    }
   }
 }
 
