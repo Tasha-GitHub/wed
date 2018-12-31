@@ -5,7 +5,7 @@
 .navbar {
   background-color: white;
   margin-bottom: 0px; }
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 767px) {
     .navbar {
       display: block; } }
   .navbar .navbar-collapse {
@@ -14,11 +14,17 @@
     display: inline-block;
     float: none;
     vertical-align: top; }
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 767px) {
       .navbar .navbar-nav {
         display: block; } }
   .navbar ul li {
     margin: 0px 50px 0px 50px; }
+    @media only screen and (max-width: 767px) {
+      .navbar ul li {
+        margin: 0px 0px 0px 0px; } }
+    @media only screen and (max-width: 1000px) {
+      .navbar ul li {
+        margin: 0px 10px 0px 10px; } }
     .navbar ul li a {
       font-family: "Caviar", Verdana, Geneva, Tahoma, sans-serif;
       letter-spacing: 2.6px;
