@@ -1,10 +1,6 @@
-#banner {
-  .banner-img {
-    background-image: url("../images/banner.png");
-    background-size: cover;
-    height: 500px;
-  }
+@import "theme.scss";
 
+#banner {
   #title-box {
     color: azure;
     text-align: center;
@@ -12,8 +8,18 @@
     position: relative;
     top: 22%;
     left: 3%;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+
+    #wedding-date {
+      font-size: 35px;
+      font-family: $secondary-font;
+      text-shadow: 1px 1px 2px #000;
+    }
 
     #main-title {
+      font-family: $primary-font;
       color: azure;
       text-align: center;
       border: azure;
@@ -24,14 +30,31 @@
       top: 22%;
       left: 3%;
       padding: 15px 0px;
+      text-shadow: 1px 1px 2px #000;
 
       p:first-child {
-        color: red;
+        font-size: 25px;
       }
 
       p:last-child {
-        color: green;
+        font-size: 48px;
       }
     }
   }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
 }
