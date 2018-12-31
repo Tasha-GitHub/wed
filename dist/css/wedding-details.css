@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Caviar";
+  src: url("../fonts/CaviarDreams.ttf"); }
+
+#wedding-details {
+  text-align: center; }
+  #wedding-details .details p {
+    font-family: "Lora", serif;
+    font-size: 18px; }

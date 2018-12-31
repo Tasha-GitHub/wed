@@ -10,6 +10,7 @@
     }
     .hotel {
       background-color: white;
+      min-width: 360px;
       height: 0%; // hack to stop cards in row from gowing to be same height, height is determined by content
       padding: 0;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -21,6 +22,9 @@
       @media only screen and (min-width: $sm-breakpoint) {
         max-width: 400px;
         margin-top: 0px;
+      }
+      @media only screen and (max-width: 360px) {
+        min-width: 310px;
       }
       &.row-end {
         margin-left: 50px;
