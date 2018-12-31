@@ -2,34 +2,36 @@
   font-family: "Caviar";
   src: url("../fonts/CaviarDreams.ttf"); }
 
-#banner #title-box {
-  color: azure;
-  text-align: center;
-  width: 300px;
-  position: relative;
-  top: 22%;
-  left: 3%;
-  position: absolute;
-  top: 20%;
-  left: 5%; }
-  #banner #title-box #wedding-date {
-    font-size: 35px;
-    font-family: "Lora", serif;
-    text-shadow: 1px 1px 2px #000; }
-  #banner #title-box #main-title {
-    font-family: "Caviar", Verdana, Geneva, Tahoma, sans-serif;
+#banner {
+  margin-top: 0px; }
+  #banner #title-box {
     color: azure;
     text-align: center;
-    border: azure;
-    border-width: 2px;
-    border-style: solid none solid none;
     width: 300px;
     position: relative;
     top: 22%;
     left: 3%;
-    padding: 15px 0px;
-    text-shadow: 1px 1px 2px #000; }
-    #banner #title-box #main-title p:first-child {
-      font-size: 25px; }
-    #banner #title-box #main-title p:last-child {
-      font-size: 48px; }
+    position: absolute;
+    top: 20%;
+    left: 5%; }
+    #banner #title-box #wedding-date {
+      font-size: 35px;
+      font-family: "Lora", serif;
+      text-shadow: 1px 1px 2px #000; }
+    #banner #title-box #main-title {
+      font-family: "Caviar", Verdana, Geneva, Tahoma, sans-serif;
+      color: azure;
+      text-align: center;
+      border: azure;
+      border-width: 2px;
+      border-style: solid none solid none;
+      width: 300px;
+      position: relative;
+      top: 22%;
+      left: 3%;
+      padding: 15px 0px;
+      text-shadow: 1px 1px 2px #000; }
+      #banner #title-box #main-title p:first-child {
+        font-size: 25px; }
+      #banner #title-box #main-title p:last-child {
+        font-size: 48px; }

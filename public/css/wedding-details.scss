@@ -1,0 +1,9 @@
+@import "theme.scss";
+
+#wedding-details {
+  text-align: center;
+  .details p {
+    font-family: $secondary-font;
+    font-size: 18px;
+  }
+}

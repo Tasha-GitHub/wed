@@ -3,6 +3,7 @@
 @import "banner.scss";
 @import "hotel-rsvp.scss";
 @import "itinerary.scss";
+@import "wedding-details.scss";
 
 html {
   font-size: 20px;
@@ -14,6 +15,7 @@ body {
   background-color: $background-color;
   section {
     text-align: center;
+    margin-top: 40px;
     margin-bottom: 40px;
     h1 {
       font-family: $primary-font;
@@ -23,12 +25,16 @@ body {
     }
   }
   .coming-soon {
-    background-color: gray;
-    color: $background-color;
+    background-color: #eee;
+    color: $secondary-color;
     height: 400px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    img {
+      height: 40px;
+    }
   }
   .footer {
     width: 100%;
